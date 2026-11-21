@@ -1,0 +1,25 @@
+{
+  "navbar": {
+    "name": "Your Brand",
+    "logo": "/images/logo.png"
+  },
+  "hero": {
+    "backgroundImage": "/images/hero-bg.jpg",
+    "quote": "This is the quote that will appear on the card.",
+    "author": "Author Name"
+  },
+  "product": {
+    "image": "/images/product.jpg",
+    "title": "Product Name",
+    "description": "A detailed description of what you are selling.",
+    "price": "$99.00",
+    "orderLink": "/order"
+  },
+  "footer": {
+    "logo": "/images/logo.png",
+    "name": "Your Brand",
+    "links": "Home | About | Contact",
+    "contact": "hello@example.com",
+    "socials": "Twitter | Instagram | LinkedIn"
+  }
+}

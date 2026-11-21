@@ -1,25 +1,27 @@
 {
   "navbar": {
-    "name": "Your Brand",
+    "name": "The people",
     "logo": "/images/logo.png"
   },
   "hero": {
     "backgroundImage": "/images/hero-bg.jpg",
-    "quote": "This is the quote that will appear on the card.",
-    "author": "Author Name"
+    "quote": "I am who i am",
+    "author": "— The Bible"
   },
   "product": {
     "image": "/images/product.jpg",
-    "title": "Product Name",
-    "description": "A detailed description of what you are selling.",
+    "title": "Ugali Kuku",
+    "description": "an africa ugali  kuku dish",
     "price": "$99.00",
-    "orderLink": "/order"
+    "orderLink": "request it"
   },
   "footer": {
-    "logo": "/images/logo.png",
-    "name": "Your Brand",
+    "logo": "/uploads/1795272013912-services.png",
+    "name": "Kamande enteprice",
     "links": "Home | About | Contact",
-    "contact": "hello@example.com",
-    "socials": "Twitter | Instagram | LinkedIn"
+    "contact": "me@mine.com",
+    "socials": "Twitter | Instagram | LinkedIn",
+    "extraLinkLabel": "Visit our store",
+    "extraLinkUrl": "https://example.com"
   }
 }

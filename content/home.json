@@ -5,8 +5,8 @@
   },
   "hero": {
     "backgroundImage": "/images/hero-bg.jpg",
-    "quote": "I am who i am",
-    "author": "— The Bible"
+    "quote": "\"Cats and dogs\"",
+    "author": "— — The rain"
   },
   "product": {
     "image": "/images/product.jpg",
@@ -17,7 +17,7 @@
   },
   "footer": {
     "logo": "/uploads/1795272013912-services.png",
-    "name": "Kamande enteprice",
+    "name": "Kagwiria enteprise",
     "links": "Home | About | Contact",
     "contact": "me@mine.com",
     "socials": "Twitter | Instagram | LinkedIn",

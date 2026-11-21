@@ -15,6 +15,7 @@ export default function HomePage({ content }: { content: any }) {
           </span>
         </div>
       </nav>
+      
 
       {/* Hero Section */}
       <section
@@ -77,6 +78,7 @@ export default function HomePage({ content }: { content: any }) {
               {content.footer.name}
             </span>
           </div>
+
           <div className="text-center md:text-left">
             <p data-edit="footer.links" className="text-sm text-gray-400">
               {content.footer.links}
@@ -85,9 +87,21 @@ export default function HomePage({ content }: { content: any }) {
               {content.footer.contact}
             </p>
           </div>
-          <p data-edit="footer.socials" className="text-sm text-gray-400">
-            {content.footer.socials}
-          </p>
+
+          <div className="flex flex-col items-center gap-2 md:items-end">
+            <p data-edit="footer.socials" className="text-sm text-gray-400">
+              {content.footer.socials}
+            </p>
+            {/* Extra link: label editable, URL from JSON */}
+            <a
+              href={content.footer.extraLinkUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-blue-400 underline hover:text-blue-300"
+            >
+              <span data-edit="footer.extraLinkLabel">{content.footer.extraLinkLabel}</span>
+            </a>
+          </div>
         </div>
       </footer>
     </div>

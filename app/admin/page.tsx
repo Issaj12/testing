@@ -1,3 +1,5 @@
+"use client";
+
 import { AdminEditor } from 'next-inline-editor';
 import homeContent from '../../content/home.json';
 import HomePage from '../../components/HomePage';
